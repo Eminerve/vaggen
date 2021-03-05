@@ -1,0 +1,103 @@
+html{
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+body{
+margin: 0;
+width: auto;
+}
+
+header{
+margin: auto;
+padding: 5px 50px 5px 50px;
+height: 6em;
+width: 100%;
+background-color: #222;
+display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+box-shadow: 0 24px 12px lightGray;
+}
+
+header ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+text-align: center;
+margin: 0em;
+color: #000;
+}
+
+header li{
+list-style: none;
+text-align: center;
+padding: 0 15px 0 15px;
+font-size: 100%;
+text-transform: uppercase;
+}
+
+header li:hover{
+color: #333;
+}
+
+.logo {
+width: 10%;
+align-items: center;
+}
+
+.barre_nav{
+width: 50%;
+}
+
+.en_cour{
+padding-top: 2%;
+width: 70%;
+margin: auto;
+text-align: center;
+color: #777;
+}
+
+.en_cour h2{
+padding-top: 1%;
+text-transform: uppercase;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+font-weight: 400;
+}
+
+.en_cour a{
+text-decoration: underline;
+color: #777;
+font-weight: 400;
+}
+
+.en_cour a:hover{
+text-decoration: underline;
+color: #333;
+font-weight: 400;
+}
+
+a:hover{
+color: #777;
+font-weight: 400;
+font-size: 100%;
+}
+
+.concept ul{
+list-style-type: none;
+font-weight: 400;
+font-size: 100%;
+width: 50%;
+margin: auto;
+text-align: left;
+}
+
+.artist_work img{
+margin: 15px;
+padding: 15px;
+border: solid #555 4px;
+}

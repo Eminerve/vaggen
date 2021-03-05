@@ -10,11 +10,11 @@
   </head>
   <body>
 
-
+    <!-- Barre de navigation -->
     <?php include 'navigation.php'; ?>
 
 
-
+    <!-- Page d'attente de construction -->
     <div class="en_cour">
       <div class="concept">
         <h2>Concept</h2>

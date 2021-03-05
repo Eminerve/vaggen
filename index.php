@@ -31,10 +31,10 @@
 
       <div class="opening">
         <h2>Opening</h2>
-        <p>The Väggen will invite to the opening the Artist who will paint for us on <strong>March 13</strong> and let his art on the wall until <strong>April 9</strong>. <br>We hope that many of you will come to meet this artist and his art. <br>C'est au pied du mur qu'on voit le mieux le mur...</p>
+        <p>The Väggen will invite to the opening the Artist <strong>Dart</strong> who will paint for us on <strong>March 13</strong> <br>and let his art on the wall until <strong>April 9</strong>. <br>We hope that many of you will come to meet this artist and his art. <br>C'est au pied du mur qu'on voit le mieux le mur...</p>
 
           <div class="artist_work">
-            <img src="images/image_1.jpg" width="400px" height="auto" alt="artist1"><img src="images/image_2.jpg" width="400px" height="auto" alt="artist1">
+            <img src="images/image_1.jpg" width="350px" height="auto" alt="artist1"><img src="images/image_2.jpg" width="350px" height="auto" alt="artist1">
           </div>
       </div>
 

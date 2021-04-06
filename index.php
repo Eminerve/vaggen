@@ -16,6 +16,16 @@
 
     <!-- Page d'attente de construction -->
     <div class="en_cour">
+
+      <div class="opening">
+        <h2>Opening</h2>
+        <p>The Väggen will invite to the opening the Artist <strong>Dart</strong> who will paint for us on <strong>April 10</strong> and let his art on the wall until <strong>May 1st</strong>. We hope that many of you will come to meet this artist and his art.</p>
+
+          <div class="artistimg">
+            <img src="images/image_1" width="300px" height="auto" alt="artist1">
+          </div>
+      </div>
+
       <div class="concept">
         <h2>Concept</h2>
         <p>Väggen offers to artists the way to have a free expression wall and more, an exhibition wall around Stockholm valuing by that, the district, the graffiti, and the Street Art.</p>
@@ -29,14 +39,7 @@
         <p>Curated by <strong>Nabil Dorbane</strong> et <a href="https://konstjord.com/" target="_blank"><strong>KonstJörd</strong></a> </p>
       </div>
 
-      <div class="opening">
-        <h2>Opening</h2>
-        <p>The Väggen will invite to the opening the Artist <strong>Dart</strong> who will paint for us on <strong>March 13</strong> <br>and let his art on the wall until <strong>April 9</strong>. <br>We hope that many of you will come to meet this artist and his art. <br>C'est au pied du mur qu'on voit le mieux le mur...</p>
 
-          <div class="artist_work">
-            <img src="images/image_1.jpg" width="350px" height="auto" alt="artist1"><img src="images/image_2.jpg" width="350px" height="auto" alt="artist1">
-          </div>
-      </div>
 
       <div class="contact">
         <h2>contact</h2>

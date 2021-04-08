@@ -13,17 +13,17 @@
     <!-- Barre de navigation -->
     <?php include 'navigation.php'; ?>
 
+    <div class="artistimg">
+      <img src="images/image_1.jpg" width="300px" height="auto" alt="artist1"><img src="images/image_1.jpg" width="300px" height="auto" alt="artist1"><img src="images/image_1.jpg" width="300px" height="auto" alt="artist1">
+    </div>
+
 
     <!-- Page d'attente de construction -->
-    <div class="en_cour">
+    <div class="en_construction">
 
       <div class="opening">
         <h2>Opening</h2>
         <p>The Väggen will invite to the opening the Artist <strong>Dart</strong> who will paint for us on <strong>April 10</strong> and let his art on the wall until <strong>May 1st</strong>. We hope that many of you will come to meet this artist and his art.</p>
-
-          <div class="artistimg">
-            <img src="images/image_1.jpg" width="300px" height="auto" alt="artist1">
-          </div>
       </div>
 
       <div class="concept">

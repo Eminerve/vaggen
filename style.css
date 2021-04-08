@@ -1,4 +1,12 @@
 
+<<<<<<< HEAD
+=======
+body{
+margin: 0;
+height: 100vh;
+width: 92.5%;
+}
+>>>>>>> e6d6a8b22464e2b6796b08bdaa3ab28092afa74b
 
 
 
@@ -6,4 +14,61 @@
 /* Banière */
 
 
+<<<<<<< HEAD
 /* page de construction */
+=======
+.barre_nav{
+width: 50%;
+}
+
+.en_cour{
+padding-top: 2%;
+width: 90%;
+margin:auto 6% auto 9%;
+text-align: center;
+align-items:center;
+color: #777;
+}
+
+.en_cour h2{
+padding-top: 1%;
+text-transform: uppercase;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+font-weight: 400;
+}
+
+.en_cour a{
+text-decoration: underline;
+color: #777;
+font-weight: 400;
+}
+
+.en_cour a:hover{
+text-decoration: underline;
+color: #333;
+font-weight: 400;
+}
+
+a:hover{
+color: #777;
+font-weight: 400;
+font-size: 100%;
+}
+
+.concept ul{
+list-style-type: none;
+font-weight: 400;
+font-size: 100%;
+width: 90%;
+margin: auto;
+text-align: left;
+}
+
+.contact{
+padding-bottom: 20vh;
+}
+>>>>>>> e6d6a8b22464e2b6796b08bdaa3ab28092afa74b

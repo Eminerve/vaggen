@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,5 +24,70 @@
 
 
 <body>
+
+<style media="screen">
+html{
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+body{
+margin: 0;
+width: auto;
+}
+
+/* header */
+header{
+margin: auto;
+padding: 5px 50px 5px 50px;
+height: 6em;
+width: 100%;
+background-color: #231F20;
+display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+box-shadow: 0 24px 12px lightGray;
+}
+
+header ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+text-align: center;
+margin: 0em;
+color: #000;
+}
+
+header li{
+list-style: none;
+text-align: center;
+padding: 0 15px 0 15px;
+font-size: 100%;
+text-transform: uppercase;
+}
+
+header li:hover{
+color: #999;
+}
+
+.logo {
+width: 10%;
+align-items: center;
+}
+
+.barre_nav{
+width: 50%;
+}
+
+header a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #777;
+}
+</style>
   </body>
 </html>

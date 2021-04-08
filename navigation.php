@@ -20,6 +20,10 @@
         <li><a href="#">Monthly</a></li>
       </ul>
     </div>
+
+    <div class="instagram">
+      <img src="" alt="">
+    </div>
   </header>
 
 
@@ -82,7 +86,9 @@ width: 50%;
 header a{
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 14px;
 }
 
 header a:hover{

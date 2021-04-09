@@ -55,7 +55,7 @@
 
       <div class="contact">
         <h2>contact</h2>
-        <p>The walls are bookable ... please contact Nabil Dorbane for availability. <br>You can reach him on 07 63 129 399.</p>
+        <p>The walls are bookable. Contact Nabil Dorbane for availability. <br>You can reach him on 07 63 129 399.</p>
       </div>
     </div>
 

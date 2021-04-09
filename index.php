@@ -18,13 +18,13 @@
 
     <div class="baniere">
       <div class="img-wrapper">
-        <img src="images/image_1.jpg" width="500" alt="artist1">
+        <img src="images/img1.jpg" width="500" alt="artist1">
       </div>
       <div class="img-wrapper">
-        <img src="images/image_2.jpg" width="500" alt="artist1">
+        <img src="images/img2.jpg" width="500" alt="artist1">
       </div>
       <div class="img-wrapper">
-        <img src="images/image_3.jpg" width="500" alt="artist1">
+        <img src="images/img3.jpg" width="500" alt="artist1">
       </div>
     </div>
 

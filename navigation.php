@@ -45,7 +45,7 @@ margin: auto;
 padding: 5px 50px 5px 50px;
 height: 6em;
 width: 100%;
-background-color: #231F20;
+background-color: #1B1C1F;
 display: flex;
 flex-direction: row;
 align-content: center;

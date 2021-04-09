@@ -48,7 +48,7 @@
 
       <div class="opening">
         <h2>Opening</h2>
-        <p>The Väggen will invite to the opening the Artist <strong>DART</strong> who will paint for us on <strong>April 10th</strong> and let his art on the wall until <strong>May 1st</strong>. <br> <br>We hope that many of you will come to meet this artist and his art! </p>
+        <p>The Väggen will invite to the opening the Artist <strong>DART</strong> who will paint for us on <strong>April 10th</strong> and let his art on the wall until <strong>May 1st</strong>. <br> <br>We hope that many of you will come to meet this artist and his art at this adress : <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
       </div>
 
     </div>
@@ -160,6 +160,10 @@
             }
 
             .concept a:hover {
+              text-decoration: underline;
+            }
+
+            .opening a:hover {
               text-decoration: underline;
             }
 

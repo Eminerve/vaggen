@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -34,28 +40,28 @@
 
       <div class="concept">
           <h2>Concept</h2>
-          <p>Väggen offers to artists the way to have a free expression wall and more, an exhibition wall around Stockholm valuing by that, the district, the graffiti, and the Street Art.</p>
-          <p>Väggen will be divided in three sections to diversify the artistic approaches:
+          <p>Väggen aims to offer artists a wall of free expression as well as to provide Stockholm with a go to place for contemporary and interesting graffiti.</p>
+          <p>Väggen is divided in three sections to diversify the artistic approaches:
             <ul>
               <li><strong>The daily</strong> wall where you can test, do quick pieces, and be initiated to graffiti.</li>
-              <li><strong>The weekly</strong> wall which will used by artists who want to take their time to work on their composition.</li>
-              <li><strong>The monthly</strong> wall is an open-air gallery which invites one artist per month and offers to him to be discovered during this period.</li>
+              <li><strong>The weekly</strong> wall which is used by artists who want to take their time to work on their composition.</li>
+              <li><strong>The monthly</strong> wall is an open-air gallery which invites a new artist every month to paint the wall.</li>
             </ul>
           </p>
 
-          <p>Curated by <a href="https://www.instagram.com/sprayit.collective/?hl=fr" target="_blank"><strong>Spray-it</strong></a> et <a href="https://konstjord.com/" target="_blank"><strong>KonstJörd</strong></a> </p>
+          <p>Curated by <a href="https://www.instagram.com/sprayit.collective/?hl=fr" target="_blank"><strong>Spray-it</strong></a> <br> Powered by <a href="https://konstjord.com/" target="_blank"><strong>KonstJörd</strong></a> </p>
       </div>
 
       <div class="opening">
         <h2>Opening</h2>
-        <p>The Väggen will invite to the opening the Artist <strong>DART</strong> who will paint for us on <strong>April 10th</strong> and let his art on the wall until <strong>May 1st</strong>. <br> <br>We hope that many of you will come to meet this artist and his art at this adress : <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
+        <p>Väggen invites you to come and visit! Opening artist is <strong>DART</strong> who will paint for us on <strong>April 10th</strong>. His artwork will be up for show until <strong>May 1st</strong>.  <br> <br><em>We hope that many people will come and visit us! Please keep distance and follow the Covid Restrictions.</em><br> <br>Adress: <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
       </div>
 
     </div>
 
       <div class="contact">
         <h2>contact</h2>
-        <p>The walls are bookable. Contact Nabil Dorbane for availability. <br>You can reach him on 07 63 129 399.</p>
+        <p>The walls are bookable. Contact Nabil Dorbane for info or availability <br>at 07 63 129 399 or via vaggen@konstjord.com.</p>
       </div>
     </div>
 
@@ -86,13 +92,13 @@
             .img-wrapper {
                 display: inline-block;
                 overflow: hidden;
-                width: 33,3%;
+                width: 33.3%;
                 margin: auto;
                 margin-top: 0;
             }
 
             .img-wrapper img {
-                height: 350px;
+                height: 400px;
                 -webkit-transition: all .3s ease;
                 -moz-transition: all .3s ease;
                 -ms-transition: all .3s ease;
@@ -135,6 +141,14 @@
               color: #777;
               font-weight: 400;
               text-align: justify;
+            }
+
+            .en_construction em {
+              font-size: 1em;
+              color: #777;
+              font-weight: 400;
+              text-align: justify;
+              text-decoration: underline;
             }
 
             .en_construction li{

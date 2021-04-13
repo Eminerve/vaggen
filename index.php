@@ -79,11 +79,10 @@
 
             /* Banniere */
             .baniere {
-              height: 30rem;
+              height: 34rem;
               background-color: #0A1218;
               width: 100%;
-
-              padding-bottom: 2rem;
+              padding-bottom: 0.5rem;
               display: flex;
               flex-direction: row;
             }

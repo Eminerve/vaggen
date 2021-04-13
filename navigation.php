@@ -24,6 +24,7 @@
         <li><a href="#">Daily</a></li>
         <li><a href="#">Weekly</a></li>
         <li><a href="#">Monthly</a></li>
+        <li><a href="#">About</a></li>
       </ul>
     </div>
 
@@ -65,6 +66,7 @@ flex-direction: row;
 list-style: none;
 text-align: center;
 margin: 0em;
+margin-left: 2rem;
 color: #000;
 }
 

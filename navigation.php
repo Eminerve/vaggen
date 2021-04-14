@@ -23,13 +23,13 @@
         <li> <a href="#">Video</a></li>
         <li><a href="#">Daily</a></li>
         <li><a href="#">Weekly</a></li>
-        <li><a href="#">Monthly</a></li>
+        <li><a href="monthly.php">Monthly</a></li>
         <li><a href="#">About</a></li>
       </ul>
     </div>
 
     <div class="instagram">
-      <img src="" alt="">
+      <a href="#"><img src="images\ig_bc.png" alt="väggen instagram" width="20px"></a>
     </div>
   </header>
 
@@ -101,6 +101,11 @@ header a{
 
 header a:hover{
   color: #777;
+}
+
+.instagram img{
+  position: absolute;
+  right: 3em;
 }
 </style>
   </body>

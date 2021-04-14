@@ -15,7 +15,7 @@
   </head>
   <header>
     <div class="logo">
-      <a href="index.php"><img src="images/test-logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
+      <a href="index.php"><img src="images/logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
     </div>
 
     <div class="barre_nav">
@@ -65,9 +65,13 @@ display: flex;
 flex-direction: row;
 list-style: none;
 text-align: center;
+align-items:center;
 margin: 0em;
 margin-left: 2rem;
 color: #000;
+border-right: solid 1px lightGray;
+padding-right: 40px;
+height: 6em;
 }
 
 header li{
@@ -88,7 +92,7 @@ align-items: center;
 }
 
 .barre_nav{
-width: 50%;
+width: 78%;
 }
 
 header a{
@@ -103,9 +107,15 @@ header a:hover{
   color: #777;
 }
 
-.instagram img{
-  position: absolute;
-  right: 3em;
+
+.instagram {
+  display: flex;
+  width: 12%;
+  height: 6em;
+  margin-right: 3rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 </style>
   </body>

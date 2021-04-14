@@ -23,14 +23,26 @@
     <!-- Baniere -->
 
     <div class="baniere">
-      <div class="img-wrapper small">
-        <img src="images/img1.jpg" width="500" alt="artist1">
+
+      <div class="img-wrapper">
+        <a href="#" class="a-img-txt">
+          <img class="a-img" src="images/img1.jpg" width="500" alt="artist1">
+          <span class="a-txt c1">Daily</span>
+        </a>
       </div>
-      <div class="img-wrapper small">
-        <img src="images/img2.jpg" width="500" alt="artist1">
+
+      <div class="img-wrapper">
+        <a href="#" class="a-img-txt">
+          <img class="a-img" src="images/img2.jpg" width="500" alt="artist1">
+          <span class="a-txt c2">Weekly</span>
+        </a>
       </div>
-      <div class="img-wrapper big">
-        <img src="images/img3.jpg" width="500" alt="artist1">
+
+      <div class="img-wrapper">
+        <a href="monthly.php" class="a-img-txt">
+          <img class="a-img" src="images/month-1.jpg" width="500" alt="artist1">
+          <span class="a-txt c3">#1 Dart<br> Monthly</span>
+        </a>
       </div>
     </div>
 
@@ -75,6 +87,7 @@
             body{
             margin: 0;
             width: auto;
+            overflow-x: hidden;
             }
 
             /* Banniere */
@@ -88,18 +101,10 @@
             }
 
 
-            .img-wrapper .small{
-                display: inline-block;
-                overflow: hidden;
-                width: 26%;
-                margin: auto;
-                margin-top: 0;
-            }
-
             .img-wrapper {
                 display: inline-block;
                 overflow: hidden;
-                width: 48%;
+                width: 33.3%;
                 margin: auto;
                 margin-top: 0;
             }
@@ -122,6 +127,70 @@
                 -o-transform:scale(1.2); /* Opera */
                 transform:scale(1.2);
             }
+
+            /*supperpostion images text*/
+
+            .a-img-txt{
+              display:grid;
+            }
+
+            /* les enfants se superposent */
+            .a-img-txt>*{
+              grid-area:1/1/-1/-1;
+              /* raccourci pour grid-row et grid-column */
+            }
+
+
+        /* le texte */
+        .a-txt{
+          text-align: right;
+          padding-right: 1em;
+          display:flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          color:#fff;
+          opacity:1;
+          filter:invert(0); /* antibug si effet sur a-img */
+          transition:opacity .8s;
+          text-transform: uppercase;
+          font-size: 1.5em;
+          font-weight: bold;
+          letter-spacing: 0.05;
+        }
+
+        /* les couleurs c1 et c2 */
+       .c1{
+            background:rgba(0,0,0,0.20); /* avec alpha */
+        }
+
+      .c2{
+            background:rgba(0,0,0,0.20); /* avec alpha */
+        }
+
+      .c3{
+            background:rgba(0,0,0,0.20); /* avec alpha */
+        }
+        /* le survol */
+        .a-txt:hover{
+          opacity:0;
+        }
+        .a-img-txt:hover .a-img{
+          filter:invert(0);
+          -webkit-transform:scale(1.2); /* Safari and Chrome */
+          -moz-transform:scale(1.2); /* Firefox */
+          -ms-transform:scale(1.2); /* IE 9 */
+          -o-transform:scale(1.2); /* Opera */
+          transform:scale(1.2);
+        }
+
+        img{
+          max-width:120%;
+          height:auto;
+        }
+        a{
+          text-decoration:none;
+        }
+
 
             .en_construction {
               display: flex;

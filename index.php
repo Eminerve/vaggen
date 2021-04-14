@@ -23,13 +23,13 @@
     <!-- Baniere -->
 
     <div class="baniere">
-      <div class="img-wrapper">
+      <div class="img-wrapper small">
         <img src="images/img1.jpg" width="500" alt="artist1">
       </div>
-      <div class="img-wrapper">
+      <div class="img-wrapper small">
         <img src="images/img2.jpg" width="500" alt="artist1">
       </div>
-      <div class="img-wrapper">
+      <div class="img-wrapper big">
         <img src="images/img3.jpg" width="500" alt="artist1">
       </div>
     </div>
@@ -88,10 +88,18 @@
             }
 
 
+            .img-wrapper .small{
+                display: inline-block;
+                overflow: hidden;
+                width: 26%;
+                margin: auto;
+                margin-top: 0;
+            }
+
             .img-wrapper {
                 display: inline-block;
                 overflow: hidden;
-                width: 33.3%;
+                width: 48%;
                 margin: auto;
                 margin-top: 0;
             }

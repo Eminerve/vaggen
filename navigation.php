@@ -29,7 +29,7 @@
     </div>
 
     <div class="instagram">
-      <a href="#"><img src="images\ig_bc.png" alt="väggen instagram" width="20px"></a>
+      <a href="https://www.instagram.com/vaggensickla/?hl=fr"><img src="images\ig_bc.png" alt="väggen instagram" width="20px"></a>
     </div>
   </header>
 

@@ -69,7 +69,7 @@ align-items:center;
 margin: 0em;
 margin-left: 2rem;
 color: #000;
-border-right: solid 1px lightGray;
+border-right: solid 0.5px lightGray;
 padding-right: 40px;
 height: 6em;
 }

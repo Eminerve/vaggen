@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon1/favicon-16x16.png">
+    <link rel="manifest" href="favicon1/site.webmanifest">
+    <link rel="mask-icon" href="favicon1/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
@@ -77,6 +77,9 @@
       </div>
     </div>
 
+      <div class="annonce_construction">
+        <p>This website is under construction, you will soon be able to find all the artists of the Wall!</p>
+      </div>
       <style media="screen">
 
             /* Général */
@@ -192,11 +195,21 @@
           max-width:120%;
           height:auto;
         }
+
         a{
           text-decoration:none;
+          color: color: #303133;
         }
 
+        a:visited {
+          text-decoration:none;
+          color: color: #303133;
+        }
 
+        a:link {
+          text-decoration:none;
+          color: color: #303133;
+        }
             .en_construction {
               display: flex;
               flex-direction: row;
@@ -212,13 +225,14 @@
             .en_construction h2 {
               font-size: 2em;
               text-transform: uppercase;
-              color: #333;
+              color: #303133;
               font-weight: 600;
               text-align: left;
             }
 
             .en_construction p {
               font-size: 1em;
+              letter-spacing: 0.05;
               color: #777;
               font-weight: 400;
               text-align: justify;
@@ -241,14 +255,14 @@
 
             .en_construction strong{
               font-size: 1em;
-              color: #333;
+              color: ##303133;
               font-weight: 600;
               text-align: justify;
             }
 
             .en_construction a{
               font-size: 1em;
-              color: #333;
+              color: #303133;
               font-weight: 600;
               text-align: justify;
               text-decoration: none;
@@ -262,6 +276,16 @@
               text-decoration: underline;
             }
 
+            /* annonce_construction */
+
+            .annonce_construction{
+              justify-content: center;
+              width: 70%;
+              text-transform: uppercase;
+              color: #303133;
+              text-align: center;
+              margin: auto;
+            }
             /* Contact */
 
             .contact {

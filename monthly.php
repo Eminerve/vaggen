@@ -20,12 +20,13 @@
 
     <div class="Banniere">
       <img class="Banniere-img" src="images-month\2021\1-Dart_1.jpg" alt="">
-      <span class="Banniere-txt">#1 DART</span>
+      <span class="Banniere-txt">#1 DART <em>- 21.04.10</em></span>
     </div>
 
     <div class="descriptif_artist-month">
     <p> <strong>DART</strong> is a naitive from Stockholm who found his interest for Graffiti in 94, he has travelled the globe to put his touch to the urban landscapes. " Graffiti for me is a raw energy, and today i wanna take elements from the rawness of graffiti and use it as a canvas while i draw the ideas that comes to me". </p>
-    </div>
+    <p>Dart will be visible until of <strong>1st of May</strong>.</p>
+</div>
 
   </body>
   <style media="screen">
@@ -76,6 +77,7 @@
     }
 
     .descriptif_artist-month{
+      padding-top: 1rem;
       width: 70%;
       text-align: center;
       align-content: center;

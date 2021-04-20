@@ -33,7 +33,7 @@
 
       <div class="img-wrapper">
         <a href="#" class="a-img-txt">
-          <img class="a-img" src="images/weekly-1.jpg" width="500" alt="artist1">
+          <img class="a-img" src="images/weekly-1.JPG" width="500" alt="artist1">
           <span class="a-txt c2">Weekly</span>
         </a>
       </div>

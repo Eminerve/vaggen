@@ -26,14 +26,14 @@
 
       <div class="img-wrapper">
         <a href="#" class="a-img-txt">
-          <img class="a-img" src="images/img1.jpg" width="500" alt="artist1">
+          <img class="a-img" src="images/daily-1.jpg" width="500" alt="artist1">
           <span class="a-txt c1">Daily</span>
         </a>
       </div>
 
       <div class="img-wrapper">
         <a href="#" class="a-img-txt">
-          <img class="a-img" src="images/img2.jpg" width="500" alt="artist1">
+          <img class="a-img" src="images/weekly-1.jpg" width="500" alt="artist1">
           <span class="a-txt c2">Weekly</span>
         </a>
       </div>

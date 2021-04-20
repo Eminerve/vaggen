@@ -15,7 +15,7 @@
   </head>
   <header>
     <div class="logo">
-      <a href="index.php"><img src="images/test-logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
+      <a href="index.php"><img src="images/logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
     </div>
 
     <div class="barre_nav">
@@ -23,13 +23,13 @@
         <li> <a href="#">Video</a></li>
         <li><a href="#">Daily</a></li>
         <li><a href="#">Weekly</a></li>
-        <li><a href="#">Monthly</a></li>
+        <li><a href="monthly.php">Monthly</a></li>
         <li><a href="#">About</a></li>
       </ul>
     </div>
 
     <div class="instagram">
-      <img src="" alt="">
+      <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank"><img src="images\ig_bc.png" alt="väggen instagram" width="20px"></a>
     </div>
   </header>
 
@@ -65,9 +65,13 @@ display: flex;
 flex-direction: row;
 list-style: none;
 text-align: center;
+align-items:center;
 margin: 0em;
 margin-left: 2rem;
 color: #000;
+border-right: solid 0.5px lightGray;
+padding-right: 40px;
+height: 6em;
 }
 
 header li{
@@ -88,7 +92,7 @@ align-items: center;
 }
 
 .barre_nav{
-width: 50%;
+width: 78%;
 }
 
 header a{
@@ -101,6 +105,17 @@ header a{
 
 header a:hover{
   color: #777;
+}
+
+
+.instagram {
+  display: flex;
+  width: 12%;
+  height: 6em;
+  margin-right: 3rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 </style>
   </body>

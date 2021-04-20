@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
-    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
@@ -23,14 +23,26 @@
     <!-- Baniere -->
 
     <div class="baniere">
+
       <div class="img-wrapper">
-        <img src="images/img1.jpg" width="500" alt="artist1">
+        <a href="#" class="a-img-txt">
+          <img class="a-img" src="images/img1.jpg" width="500" alt="artist1">
+          <span class="a-txt c1">Daily</span>
+        </a>
       </div>
+
       <div class="img-wrapper">
-        <img src="images/img2.jpg" width="500" alt="artist1">
+        <a href="#" class="a-img-txt">
+          <img class="a-img" src="images/img2.jpg" width="500" alt="artist1">
+          <span class="a-txt c2">Weekly</span>
+        </a>
       </div>
+
       <div class="img-wrapper">
-        <img src="images/img3.jpg" width="500" alt="artist1">
+        <a href="monthly.php" class="a-img-txt">
+          <img class="a-img" src="images/month-1.jpg" width="500" alt="artist1">
+          <span class="a-txt c3">#1 Dart<br> Monthly</span>
+        </a>
       </div>
     </div>
 
@@ -49,12 +61,12 @@
             </ul>
           </p>
 
-          <p>Curated by <a href="https://www.instagram.com/sprayit.collective/?hl=fr" target="_blank"><strong>Spray-it</strong></a> <br> Powered by <a href="https://konstjord.com/" target="_blank"><strong>KonstJörd</strong></a> </p>
+          <p>Curated by <a href="https://www.instagram.com/sprayit.collective/?hl=fr" target="_blank"><strong>Spray-it</strong></a> <br> Powered by <a href="https://konstjord.com/" target="_blank"><strong>Konstjord</strong></a> </p>
       </div>
 
       <div class="opening">
         <h2>Opening</h2>
-        <p>Väggen invites you to come and visit! Opening artist is <strong>DART</strong> who will paint for us on <strong>April 10th</strong>. His artwork will be up for show until <strong>May 1st</strong>.  <br> <br><em>We hope that many people will come and visit us! Please keep distance and follow the Covid Restrictions.</em><br> <br>Adress: <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
+        <p>Väggen invites you to come and visit! Opening artist is <strong>DART</strong> who will paint for us on <strong>April 10th</strong>. His artwork will be up for show until <strong>May 7th</strong>.  <br> <br><em>We hope that many people will come and visit us! Please keep distance and follow the Covid Restrictions.</em><br> <br>Address: <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
       </div>
 
     </div>
@@ -68,6 +80,11 @@
       <style media="screen">
 
             /* Général */
+            @font-face {
+              font-family: 'AvantGardeRegular';
+              src: url();
+            }
+
             html{
             font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
             }
@@ -75,6 +92,7 @@
             body{
             margin: 0;
             width: auto;
+            overflow-x: hidden;
             }
 
             /* Banniere */
@@ -114,6 +132,70 @@
                 -o-transform:scale(1.2); /* Opera */
                 transform:scale(1.2);
             }
+
+            /*supperpostion images text*/
+
+            .a-img-txt{
+              display:grid;
+            }
+
+            /* les enfants se superposent */
+            .a-img-txt>*{
+              grid-area:1/1/-1/-1;
+              /* raccourci pour grid-row et grid-column */
+            }
+
+
+        /* le texte */
+        .a-txt{
+          text-align: right;
+          padding-right: 1em;
+          display:flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          color:#fff;
+          opacity:1;
+          filter:invert(0); /* antibug si effet sur a-img */
+          transition:opacity .8s;
+          text-transform: uppercase;
+          font-size: 1.5em;
+          font-weight: bold;
+          letter-spacing: 0.05;
+        }
+
+        /* les couleurs c1 et c2 */
+       .c1{
+            background:rgba(0,0,0,0.20); /* avec alpha */
+        }
+
+      .c2{
+            background:rgba(0,0,0,0.20); /* avec alpha */
+        }
+
+      .c3{
+            background:rgba(0,0,0,0.20); /* avec alpha */
+        }
+        /* le survol */
+        .a-txt:hover{
+          opacity:0;
+        }
+        .a-img-txt:hover .a-img{
+          filter:invert(0);
+          -webkit-transform:scale(1.2); /* Safari and Chrome */
+          -moz-transform:scale(1.2); /* Firefox */
+          -ms-transform:scale(1.2); /* IE 9 */
+          -o-transform:scale(1.2); /* Opera */
+          transform:scale(1.2);
+        }
+
+        img{
+          max-width:120%;
+          height:auto;
+        }
+        a{
+          text-decoration:none;
+        }
+
 
             .en_construction {
               display: flex;

@@ -100,7 +100,7 @@
 
             /* Banniere */
             .baniere {
-              height: 34rem;
+              height: 36rem;
               background-color: #0A1218;
               width: 100%;
               padding-bottom: 0.5rem;

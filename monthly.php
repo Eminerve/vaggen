@@ -15,11 +15,17 @@
   <body>
 
     <!-- Barre de navigation -->
+<div class="nav-screen">
+  <?php include 'navigation.php'; ?>
+</div>
 
-    <?php include 'navigation.php'; ?>
+<div class="nav-mob">
+  <?php include 'nav-mobile.php'; ?>
+</div>
 
     <div class="Banniere">
-      <img class="Banniere-img" src="images-month\2021\1-Dart_1.jpg" alt="">
+      <img class="Banniere-img screen" src="images-month\2021\1-Dart_1.jpg" alt="banner photo väggen DART Spray-it Konstjord">
+      <img class="Banniere-img mobile" src="images\month-1.jpg" alt="banner photo väggen DART Spray-it Konstjord">
       <span class="Banniere-txt">#1 DART <em>- 21.04.10</em></span>
     </div>
 
@@ -30,6 +36,7 @@
 
   </body>
   <style media="screen">
+
     html{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     }
@@ -38,6 +45,37 @@
     margin: 0;
     width: auto;
     overflow-x: hidden;
+    }
+
+/* Brarre de navigation */
+    /* au dessus de 600px */
+    .nav-mob{
+      display: none;
+    }
+
+
+    /* en dessous de 600px */
+    @media only screen and (max-width: 600px) {
+      .nav-mob{
+        display: contents;
+      }
+
+      .nav-screen{
+        display: none;
+      }
+
+      .screen{
+        display: none;
+      }
+
+      .mobile{
+        display: contents;
+      }
+    }
+
+
+    .mobile{
+      display: none;
     }
 
     .Banniere{
@@ -49,7 +87,30 @@
       width: 100%;
     }
 
+    @media only screen and (max-width: 600px) {
+      .Banniere{
+        background: url("https://i.ibb.co/LZ0WCjQ/month-1.jpg");
+        max-width: 600px;
+        height: 400px;
+      }
 
+      .descriptif_artist-month{
+        padding-top: 1rem;
+        width: 70%;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: 1em;
+        height: 10rem;
+        background-color: white;
+        color: #303133;
+        padding-bottom: 2rem;
+        margin-bottom: 5rem;
+      }
+
+    }
 
 
     /* les enfants se superposent */
@@ -88,6 +149,8 @@
       height: 10rem;
       background-color: white;
       color: #303133;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
     }
 
     .descriptif_artist-month strong{

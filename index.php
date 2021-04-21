@@ -16,9 +16,13 @@
   <body>
 
     <!-- Barre de navigation -->
+<div class="nav-screen">
+  <?php include 'navigation.php'; ?>
+</div>
 
-    <?php include 'navigation.php'; ?>
-
+<div class="nav-mob">
+  <?php include 'nav-mobile.php'; ?>
+</div>
 
     <!-- Baniere -->
 
@@ -98,6 +102,35 @@
             overflow-x: hidden;
             }
 
+            /* Brarre de navigation */
+                /* au dessus de 600px */
+                .nav-mob{
+                  display: none;
+                }
+            /* en dessous de 600px */
+            @media only screen and (max-width: 600px) {
+              .nav-mob{
+                display: contents;
+              }
+
+              .nav-screen{
+                display: none;
+              }
+
+              .screen{
+                display: none;
+              }
+
+              .mobile{
+                display: contents;
+              }
+            }
+
+
+            .mobile{
+              display: none;
+            }
+
             /* Banniere */
             .baniere {
               height: 36rem;
@@ -115,6 +148,24 @@
                 width: 33.3%;
                 margin: auto;
                 margin-top: 0;
+            }
+
+            @media only screen and (max-width: 600px) {
+              .baniere {
+                height: auto;
+                background-color: #0A1218;
+                width: 100%;
+                padding-bottom: 0.5rem;
+                display: flex;
+                margin: auto;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+              }
+
+              .img-wrapper {
+                  width: 100%;
+              }
             }
 
             .img-wrapper img {

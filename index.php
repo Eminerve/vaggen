@@ -16,9 +16,13 @@
   <body>
 
     <!-- Barre de navigation -->
+<div class="nav-screen">
+  <?php include 'navigation.php'; ?>
+</div>
 
-    <?php include 'navigation.php'; ?>
-
+<div class="nav-mob">
+  <?php include 'nav-mobile.php'; ?>
+</div>
 
     <!-- Baniere -->
 
@@ -26,21 +30,21 @@
 
       <div class="img-wrapper">
         <a href="#" class="a-img-txt">
-          <img class="a-img" src="images/daily-1.jpg" width="500" alt="artist1">
+          <img class="a-img" src="images/daily-1.jpg" alt="artist1">
           <span class="a-txt c1">Daily</span>
         </a>
       </div>
 
       <div class="img-wrapper">
         <a href="#" class="a-img-txt">
-          <img class="a-img" src="images/weekly-1.JPG" width="500" alt="artist1">
+          <img class="a-img" src="images/weekly-1.JPG" alt="artist1">
           <span class="a-txt c2">Weekly</span>
         </a>
       </div>
 
       <div class="img-wrapper">
         <a href="monthly.php" class="a-img-txt">
-          <img class="a-img" src="images/month-1.jpg" width="500" alt="artist1">
+          <img class="a-img" src="images/month-1.jpg" alt="artist1">
           <span class="a-txt c3">#1 Dart<br> Monthly</span>
         </a>
       </div>
@@ -75,7 +79,7 @@
         <h2>contact</h2>
         <p>The walls are bookable. Contact Nabil Dorbane for info or availability <br>at 07 63 129 399 or via vaggen@konstjord.com.</p>
       </div>
-    </div>
+
 
       <div class="annonce_construction">
         <p>This website is under construction, you will soon be able to find all the artists of the Wall!</p>
@@ -98,12 +102,46 @@
             overflow-x: hidden;
             }
 
+
+
+
+            /* en dessous de 600px */
+            @media only screen and (max-width: 600px) {
+              .nav-mob{
+                display: contents;
+              }
+
+              .nav-screen{
+                display: none;
+              }
+
+              .screen{
+                display: none;
+              }
+
+              .mobile{
+                display: contents;
+              }
+            }
+
+
+
+
+            /* Brarre de navigation */
+                /* au dessus de 600px */
+            .nav-mob{
+              display: none;
+            }
+
+            .mobile{
+              display: none;
+            }
+
             /* Banniere */
             .baniere {
-              height: 36rem;
               background-color: #0A1218;
               width: 100%;
-              padding-bottom: 0.5rem;
+              padding-bottom: 5rem;
               display: flex;
               flex-direction: row;
             }
@@ -117,8 +155,39 @@
                 margin-top: 0;
             }
 
+            @media only screen and (max-width: 600px) {
+              .baniere {
+                height: auto;
+                background-color: #0A1218;
+                width: 100%;
+                padding-bottom: 0.5rem;
+                display: flex;
+                margin: auto;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+              }
+
+              .img-wrapper {
+                  width: 100%;
+              }
+
+              .img-wrapper img{
+                  width: 100%;
+              }
+
+              .en_construction {
+                display: flex;
+                flex-wrap: wrap;
+                width: 90%;
+                margin: auto;
+              }
+            }
+
+
+
             .img-wrapper img {
-                height: 400px;
+                height: auto;
                 -webkit-transition: all .3s ease;
                 -moz-transition: all .3s ease;
                 -ms-transition: all .3s ease;

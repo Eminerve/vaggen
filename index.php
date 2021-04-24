@@ -288,7 +288,7 @@
       }
 
       .element {
-        padding: 1rem;
+        padding: 2rem;
         flex: 1;
       }
 

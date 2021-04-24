@@ -30,9 +30,9 @@
     </div>
 
     <div class="descriptif_artist-month">
-    <p> <strong>DART</strong> is a naitive from Stockholm who found his interest for Graffiti in 94, he has travelled the globe to put his touch to the urban landscapes. " Graffiti for me is a raw energy, and today i wanna take elements from the rawness of graffiti and use it as a canvas while i draw the ideas that comes to me". </p>
-    <p>Dart will be visible until of <strong>1st of May</strong>.</p>
-</div>
+      <p> <strong>DART</strong> is a naitive from Stockholm who found his interest for Graffiti in 94, he has travelled the globe to put his touch to the urban landscapes. " Graffiti for me is a raw energy, and today i wanna take elements from the rawness of graffiti and use it as a canvas while i draw the ideas that comes to me". </p>
+      <p>Dart will be visible until of <strong>1st of May</strong>.</p>
+    </div>
 
   </body>
   <style media="screen">

@@ -29,16 +29,16 @@
     <div class="baniere">
 
       <div class="img-wrapper">
-        <a href="#" class="a-img-txt">
+        <a href="https://www.instagram.com/bezzwalls/?hl=fr" target="_blank" class="a-img-txt">
           <img class="a-img" src="images/daily-1.jpg" alt="artist1">
-          <span class="a-txt c1">Daily</span>
+          <span class="a-txt c1">BEZZ <br>Daily</span>
         </a>
       </div>
 
       <div class="img-wrapper">
-        <a href="#" class="a-img-txt">
+        <a href="weekly.php" class="a-img-txt">
           <img class="a-img" src="images/weekly-1.JPG" alt="artist1">
-          <span class="a-txt c2">Weekly</span>
+          <span class="a-txt c2">CHEAT, KIDKASH, KISS<br>Weekly</span>
         </a>
       </div>
 
@@ -285,10 +285,11 @@
         flex-direction: row;
         width: 90%;
         margin: auto;
+        margin-bottom: 1rem;
       }
 
       .element {
-        padding: 2rem;
+        padding: 0 2rem 0 2rem;
         flex: 1;
       }
 

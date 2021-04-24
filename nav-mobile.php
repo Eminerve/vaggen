@@ -54,7 +54,7 @@ body {
     color: white;
   }
 
-  .topnav img{
+  .topnav .logo img{
     width: 60px;
     height: 60px;
   }
@@ -68,13 +68,14 @@ body {
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
-  <a href="index.php" class="active"><img src="images/logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
+  <a href="index.php" class="active logo"><img src="images/logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
   <div id="myLinks">
     <a href="#t">Videos</a>
     <a href="#">Daily</a>
-    <a href="#">Weekly</a>
+    <a href="weekly.php">Weekly</a>
     <a href="monthly.php">Monthly</a>
     <a href="#">About</a>
+    <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank"><img src="images\ig_bc.png" alt="väggen instagram" width="15px"></a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>

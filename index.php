@@ -16,7 +16,6 @@
   <body>
 
     <!-- Chargement de la page -->
-    <script src="app.js"></script>
 
     <div class="loader">
       <span class="lettre">L</span>

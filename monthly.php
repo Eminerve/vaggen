@@ -71,23 +71,7 @@
       .mobile{
         display: contents;
       }
-    }
 
-
-    .mobile{
-      display: none;
-    }
-
-    .Banniere{
-      width: 100%;
-      display:grid;
-    }
-
-    .Banniere img{
-      width: 100%;
-    }
-
-    @media only screen and (max-width: 600px) {
       .Banniere{
         background: url("https://i.ibb.co/LZ0WCjQ/month-1.jpg");
         max-width: 600px;
@@ -110,7 +94,31 @@
         margin-bottom: 5rem;
       }
 
+      span.Banniere-txt{
+      text-align: left;
+      padding-left: 1em;
+      padding-bottom: 1em;
+      font-size: 2em;
+      }
     }
+
+
+
+    /* Au dessus de 600px */
+    .mobile{
+      display: none;
+    }
+
+    .Banniere{
+      width: 100%;
+      display:grid;
+    }
+
+    .Banniere img{
+      width: 100%;
+    }
+
+
 
 
     /* les enfants se superposent */

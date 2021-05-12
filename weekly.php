@@ -81,6 +81,7 @@
         background: url("https://i.ibb.co/cT1bLb5/Week15-inter.jpg");
         width: 100%;
         height: 300px;
+        background-position: center;
       }
 
       .descriptif_artist-week {
@@ -142,6 +143,7 @@
     .Banniere{
       width: 100%;
       display:grid;
+      background-position: center;
     }
 
     .Banniere img{

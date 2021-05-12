@@ -15,6 +15,7 @@
   </head>
   <body>
 
+
     <!-- Barre de navigation -->
 <div class="nav-screen">
   <?php include 'navigation.php'; ?>
@@ -25,7 +26,7 @@
 </div>
 
     <!-- Baniere -->
-
+<div class="w3-animate-bottom">
     <div class="baniere">
 
       <div class="img-wrapper">
@@ -50,6 +51,10 @@
       </div>
     </div>
 
+    <div class="promotion">
+      <img class="screen" src="images/promotion/Artist-2.jpg" width="100%" alt="promotion">
+      <img class="mobile" src="images/promotion/Artist-2-mini.jpg" width="100%" alt="prmotion">
+    </div>
     <!-- Page d'attente de construction -->
 
     <div class="en_construction">
@@ -69,8 +74,8 @@
       </div>
 
       <div class="element">
-        <h2>Opening</h2>
-        <p>Väggen invites you to come and visit! Opening artist is <strong>DART</strong> who will paint for us on <strong>April 10th</strong>. His artwork will be up for show until <strong>May 1st</strong>.  <br> <br><em>We hope that many people will come and visit us! Please keep distance and follow the Covid Restrictions.</em><br> <br>Address: <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
+        <h2>Come to visite</h2>
+        <p>Väggen invites you to come and visit! The next artist is <strong>THE HIGHNESS</strong> who will paint for us on <strong>May 1st</strong>. His artwork will be up for show until <strong>May 21th</strong>.  <br> <br><em>We hope that many people will come and visit us! Please keep distance and follow the Covid Restrictions.</em><br> <br>Address: <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
       </div>
 
     </div>
@@ -84,6 +89,8 @@
       <div class="annonce_construction">
         <p>This website is under construction, you will soon be able to find all the artists of the Wall!</p>
       </div>
+
+</div>
       <style media="screen">
 
       /* Général */
@@ -124,8 +131,40 @@
         .mobile{
           display: contents;
         }
+        .promotion{
+          background-image: url('https://i.ibb.co/T28Yjf4/artist-2-500.jpg');
+          margin: auto;
+          height: 60vh;
+          background-repeat: space;
+          background-position: center;
+        }
       }
 
+
+      @media only screen and (max-width: 500px) {
+        .nav-mob{
+          display: contents;
+        }
+
+        .nav-screen{
+          display: none;
+        }
+
+        .screen{
+          display: none;
+        }
+
+        .mobile{
+          display: contents;
+        }
+        .promotion{
+          background-image: url('https://i.ibb.co/jVJRZVC/artist-2-400.jpg');
+          margin: auto;
+          height: 50vh;
+          background-repeat: space;
+          background-position: center;
+        }
+      }
       /* en dessous de 600px */
       @media only screen and (max-width: 600px) {
 
@@ -343,6 +382,12 @@
         text-decoration: underline;
       }
 
+      /* Promotion */
+      .promotion{
+        width: 100%;
+        background-color: #0A1218;
+        padding-bottom: 4rem;
+      }
       /* annonce_construction */
 
       .annonce_construction{

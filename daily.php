@@ -58,7 +58,7 @@
       <div class="fond">
         <div class="images inline-photo show-on-scroll"><img src="https://i.ibb.co/Y0qMXgp/Holem-Rabeks.png" class="img-daily"alt="Holem Rabeks Spray it konstjord daily"></div>
         <div class="text show-on-scroll">
-          <h2><a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a> &<br> <a href="https://www.instagram.com/rabeks_ask/?hl=fr" target="_blank">Rabeks</a></h2>
+          <h2><a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a> & <a href="https://www.instagram.com/rabeks_ask/?hl=fr" target="_blank">Rabeks</a></h2>
           <p><em>27/04/2021</em></p>
         </div>
       </div>
@@ -265,10 +265,19 @@ will-change: transform;
     }
 
     .text{
+    width: inherit;
+    width: 80%;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 1rem;
     margin-left: inherit;
-    text-align: left;
+    text-align: right;
+    font-size: 1rem;
+    }
+
+    h2 a{
+      font-family: 'AvantGardeBold';
+      font-weight: 500;
+      font-size: 1.2em;
     }
   }
 

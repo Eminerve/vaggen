@@ -32,7 +32,8 @@
       </div>
 
       <div class="descriptif_artist-week">
-        <p> <strong><a href="#" target="_blank">Ocur</a>, <a href="#" target="_blank">Gouge</a>, <a href="#" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="#" target="_blank">Rabeks</a></strong>
+        <p> <strong><a href="https://www.instagram.com/explore/tags/ocur/?hl=fr" target="_blank">Ocur</a>, <a href="https://www.instagram.com/gougeone/?hl=fr" target="_blank">Gouge</a>, <a href="https://www.instagram.com/morgue_ask/" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="https://www.instagram.com/rabeks_ask/"
+        target="_blank">Rabeks</a></strong>
           <br><em>Week 20</em>
           <br><br> <br>
         </p>
@@ -163,6 +164,11 @@
       padding-bottom: 1em;
       font-size: 2em;
       }
+
+      .contener_artist{
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+      }
     }
 
     @media only screen and (max-width: 522px){
@@ -292,6 +298,8 @@
       font-size: 1.5em;
       color: #303133;
       text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'AvantGardeBold';
     }
 
     .descriptif_artist-week strong a:hover{

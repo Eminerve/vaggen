@@ -38,7 +38,7 @@
 
       <div class="img-wrapper">
         <a href="weekly.php" class="a-img-txt">
-          <img class="a-img" src="https://i.ibb.co/gdkbCj8/Weekly-2-Artists-Ocur-Gouge-Morgue-Holem-Rabeks.jpg" alt=" Ocur Gouge Morgue Holem Rabeks Spray-it väggen week konstjord">
+          <img class="a-img" src="https://i.ibb.co/ynmJxCx/Ocur-Gouge-Morgue-Holem-Rabeks-week-20.jpg" alt=" Ocur Gouge Morgue Holem Rabeks Spray-it väggen week konstjord">
           <span class="a-txt">Ocur, Gouge, Morgue, <br>Holem, Rabeks<br>Weekly</span>
         </a>
       </div>

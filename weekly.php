@@ -35,7 +35,7 @@
         <p class="titre"> <strong><a href="https://www.instagram.com/explore/tags/ocur/?hl=fr" target="_blank">Ocur</a>, <a href="https://www.instagram.com/gougeone/?hl=fr" target="_blank">Gouge</a>, <a href="https://www.instagram.com/morgue_ask/" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="https://www.instagram.com/rabeks_ask/"
         target="_blank">Rabeks</a></strong>
           <br><em>Week 20</em>
-          <br>Three artists from the CAS team for a two-color improvisation with small graffiti watches.<br> <br>
+          <br><br>Three artists from the CAS team for a two-color improvisation with small graffiti watches.<br> 
         </p>
         <p>
           You can find all the photos of the wall on the <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank">Väggen intasgram</a> or follow the artists' news by clicking on their name!

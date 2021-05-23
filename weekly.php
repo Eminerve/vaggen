@@ -1,4 +1,4 @@
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon1/favicon-32x32.png">
@@ -23,28 +23,78 @@
       <?php include 'nav-mobile.php'; ?>
     </div>
 
-    <div class="Banniere">
-      <img class="Banniere-img screen" src="images-week\2021\Week15.jpg" height="auto" alt="banner photo väggen week 15 Cheat Kidkash Kiss Spray-it Konstjord">
-      <img class="Banniere-img mobile" src="images-week\2021\Week15-mini.png" height="auto" alt="banner photo väggen week 15 Cheat Kidkash Kiss Spray-it Konstjord">
-      <span class="Banniere-txt"><em>Week 15</em></span>
+    <div class="contener_artist">
+
+      <div class="Banniere gauche artist20">
+        <img class="Banniere-img screen" src="https://i.ibb.co/419gM7w/week20.png" height="auto" alt="banner photo väggen week 20 Ocur Gouge Morgue Holem Rabeks Spray-it Konstjord">
+        <img class="Banniere-img mobile" height="auto" alt="banner photo väggen week 15 week 20 Ocur Gouge Morgue Holem Rabeks Spray-it Konstjord">
+        <span class="Banniere-txt bas"><em>Week 20</em></span>
+      </div>
+
+      <div class="descriptif_artist-week">
+        <p> <strong><a href="#" target="_blank">Ocur</a>, <a href="#" target="_blank">Gouge</a>, <a href="#" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="#" target="_blank">Rabeks</a></strong>
+          <br><em>Week 20</em>
+          <br><br> <br>
+        </p>
+        <p>
+          You can find all the photos of the wall on the <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank">Väggen intasgram</a> or follow the artists' news by clicking on their name!
+        </p>
+      </div>
+
     </div>
 
-    <div class="descriptif_artist-week">
-      <p> <strong><a href="https://www.instagram.com/cheat_122/?hl=fr" target="_blank">Cheat</a>, <a href="https://www.instagram.com/kidkash78/?hl=fr" target="_blank">Kidkash</a>, <a href="https://www.instagram.com/kiss_cas_pyc/?hl=fr" target="_blank">Kiss</a></strong>
-        <br><em>Week 15</em>
-        <br><br>For this first week, this collaboration perfectly highlights Väggen's spirit: letters, characters and the right amount of humor and messages. <br>Thanks to them !
-      </p>
-      <p>
-        You can find all the photos of the wall on the <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank">Väggen intasgram</a> or follow the artists' news by clicking on their name!
-      </p>
+    <div class="contener_artist">
+
+      <div class="Banniere gauche artist15">
+        <img class="Banniere-img screen" src="images-week\2021\Week15.jpg" height="auto" alt="banner photo väggen week 15 Cheat Kidkash Kiss Spray-it Konstjord">
+        <img class="Banniere-img mobile" height="auto" alt="banner photo väggen week 15 Cheat Kidkash Kiss Spray-it Konstjord">
+        <span class="Banniere-txt haut"><em>Week 15</em></span>
+      </div>
+
+      <div class="descriptif_artist-week">
+        <p> <strong><a href="https://www.instagram.com/cheat_122/?hl=fr" target="_blank">Cheat</a>, <a href="https://www.instagram.com/kidkash78/?hl=fr" target="_blank">Kidkash</a>, <a href="https://www.instagram.com/kiss_cas_pyc/?hl=fr" target="_blank">Kiss</a></strong>
+          <br><em>Week 15</em>
+          <br><br>For this first week, this collaboration perfectly highlights Väggen's spirit: letters, characters and the right amount of humor and messages. <br>Thanks to them !
+        </p>
+        <p>
+          You can find all the photos of the wall on the <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank">Väggen intasgram</a> or follow the artists' news by clicking on their name!
+        </p>
+      </div>
+
     </div>
+
 
   </body>
   <style media="screen">
 
-    html{
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    }
+  /* Général */
+  @font-face {
+    font-family: 'AvantGarde';
+    src: url('font/AvantGardeRegular.otf');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'AvantGardeLight';
+    src: url('font/AvantGardeLight.otf');
+    font-weight: lighter;
+  }
+
+  @font-face {
+    font-family: 'AvantGardeDemiBold';
+    src: url('font/AvantGardeDemiBold.otf');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'AvantGardeBold';
+    src: url('font/AvantGardeBold.otf');
+    font-weight: bolder;
+  }
+
+  html{
+    font-family: 'AvantGardeRegular',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
 
     body{
     margin: 0;
@@ -78,10 +128,16 @@
       }
 
       .Banniere{
-        background: url("https://i.ibb.co/cT1bLb5/Week15-inter.jpg");
         width: 100%;
         height: 300px;
         background-position: center;
+      }
+
+      .Banniere.artist20{
+        background: url("https://i.ibb.co/CmtSxjc/week20-600.png");
+      }
+      .Banniere.artist15{
+        background: url("https://i.ibb.co/cT1bLb5/Week15-inter.jpg");
       }
 
       .descriptif_artist-week {
@@ -94,19 +150,32 @@
         text-align: justify;
       }
 
-      span.Banniere-txt{
+      span.Banniere-txt.haut{
       text-align: left;
       padding-left: 1em;
       padding-bottom: 7em;
+      font-size: 2em;
+      }
+
+      span.Banniere-txt.bas{
+      text-align: left;
+      padding-left: 1em;
+      padding-bottom: 1em;
       font-size: 2em;
       }
     }
 
     @media only screen and (max-width: 522px){
       .Banniere{
-        background: url("https://i.ibb.co/fNW1MmH/Week15-inter1.png");
         width: 100%;
         height: 300px;
+      }
+
+      .Banniere.artist20{
+        background: url("https://i.ibb.co/vvgRXVw/week20-500.png");
+      }
+      .Banniere.artist15{
+        background: url("https://i.ibb.co/fNW1MmH/Week15-inter1.png");
       }
 
       span.Banniere-txt{
@@ -119,9 +188,15 @@
 
       @media only screen and (max-width: 370px){
         .Banniere{
-          background: url("https://i.ibb.co/H2Qwzrn/Week15-mini.png");
           width: 100%;
           height: 300px;
+        }
+
+        .Banniere.artist20{
+          background: url("https://i.ibb.co/Sn8Kfs8/week20-300.png");
+        }
+        .Banniere.artist15{
+          background: url("https://i.ibb.co/H2Qwzrn/Week15-mini.png");
         }
 
         span.Banniere-txt{
@@ -136,11 +211,21 @@
 
 
     /* Au dessus de 600px */
+
     .mobile{
       display: none;
     }
 
-    .Banniere{
+    @keyframes Ban {
+
+      0% {transform: translate(-15vh); opacity: 0.8;}
+      100% {transform: translate(0vh); opacity: 1;}
+    }
+
+
+
+    .Banniere.gauche{
+      animation: Ban 2s ease;
       width: 100%;
       display:grid;
       background-position: center;

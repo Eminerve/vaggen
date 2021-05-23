@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon1/favicon-32x32.png">
@@ -30,31 +30,31 @@
     <div class="baniere">
 
       <div class="img-wrapper">
-        <a href="https://www.instagram.com/bezzwalls/?hl=fr" target="_blank" class="a-img-txt">
-          <img class="a-img" src="images/daily-1.jpg" alt="artist1">
-          <span class="a-txt c1">BEZZ <br>Daily</span>
+        <a href="daily.php" class="a-img-txt">
+          <img class="a-img" src="https://i.ibb.co/H4c8hbG/Tonk-compress.jpg" alt="Tonk daily Spray-it väggen month konstjord">
+          <span class="a-txt">Tonk<br>Daily</span>
         </a>
       </div>
 
       <div class="img-wrapper">
         <a href="weekly.php" class="a-img-txt">
-          <img class="a-img" src="images/weekly-1.JPG" alt="artist1">
-          <span class="a-txt c2">CHEAT, KIDKASH, KISS<br>Weekly</span>
+          <img class="a-img" src="https://i.ibb.co/gdkbCj8/Weekly-2-Artists-Ocur-Gouge-Morgue-Holem-Rabeks.jpg" alt=" Ocur Gouge Morgue Holem Rabeks Spray-it väggen week konstjord">
+          <span class="a-txt">Ocur, Gouge, Morgue, <br>Holem, Rabeks<br>Weekly</span>
         </a>
       </div>
 
       <div class="img-wrapper">
         <a href="monthly.php" class="a-img-txt">
-          <img class="a-img" src="images/month-1.jpg" alt="artist1">
-          <span class="a-txt c3">#1 Dart<br> Monthly</span>
+          <img class="a-img" src="https://i.ibb.co/x2mLkFb/Monthly-11-maj-2021-8.jpg" alt="The highness Spray-it väggen month konstjord">
+          <span class="a-txt">#2 The Highness<br>Monthly</span>
         </a>
       </div>
     </div>
 
-    <div class="promotion">
+<!--    <div class="promotion">
       <img class="screen" src="images/promotion/Artist-2.jpg" width="100%" alt="promotion">
       <img class="mobile" src="images/promotion/Artist-2-mini.jpg" width="100%" alt="prmotion">
-    </div>
+    </div> -->
     <!-- Page d'attente de construction -->
 
     <div class="en_construction">
@@ -74,7 +74,7 @@
       </div>
 
       <div class="element">
-        <h2>Come to visite</h2>
+        <h2>Come to visit</h2>
         <p>Väggen invites you to come and visit! The next artist is <strong>THE HIGHNESS</strong> who will paint for us on <strong>May 1st</strong>. His artwork will be up for show until <strong>May 21th</strong>.  <br> <br><em>We hope that many people will come and visit us! Please keep distance and follow the Covid Restrictions.</em><br> <br>Address: <a href="https://www.google.com/search?q=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&sxsrf=ALeKk00j1Z4FIb-8SPe1u18T40A4YVOQPg%3A1617952895913&ei=fwBwYLmcN_KnrgSot7WACw&oq=Sickla+industriv%C3%A4g+6%2C+131+34+Nacka&gs_lcp=Cgdnd3Mtd2l6EANQ-qkEWPqpBGDCsARoAHACeACAAeQBiAGGA5IBBTAuMS4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwj51_6c0PDvAhXyk4sKHahbDbAQ4dUDCA0&uact=5" target="_blank"><strong>Sickla industriväg 6, 131 34 Nacka</strong></a> </p>
       </div>
 
@@ -86,21 +86,36 @@
       </div>
 
 
-      <div class="annonce_construction">
-        <p>This website is under construction, you will soon be able to find all the artists of the Wall!</p>
-      </div>
-
 </div>
       <style media="screen">
 
       /* Général */
       @font-face {
-        font-family: 'AvantGardeRegular';
-        src: url();
+        font-family: 'AvantGarde';
+        src: url('font/AvantGardeRegular.otf');
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: 'AvantGardeLight';
+        src: url('font/AvantGardeLight.otf');
+        font-weight: lighter;
+      }
+
+      @font-face {
+        font-family: 'AvantGardeDemiBold';
+        src: url('font/AvantGardeDemiBold.otf');
+        font-weight: bold;
+      }
+
+      @font-face {
+        font-family: 'AvantGardeBold';
+        src: url('font/AvantGardeBold.otf');
+        font-weight: bolder;
       }
 
       html{
-        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        font-family: 'AvantGardeRegular',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       }
 
       body{
@@ -178,9 +193,10 @@
       .baniere {
         background-color: #0A1218;
         width: 100%;
-        padding-bottom: 5rem;
+        padding-bottom: 4rem;
         display: flex;
         flex-direction: row;
+        font-weight: bold;
       }
 
 
@@ -224,8 +240,23 @@
         }
 
       }
-
+      @keyframes anim {
+        0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+      }
       .img-wrapper img {
+        animation: anim .5s ease-in-out;
         height: auto;
         -webkit-transition: all .3s ease;
         -moz-transition: all .3s ease;
@@ -261,6 +292,7 @@
       .a-txt{
         text-align: right;
         padding-right: 1em;
+        padding-bottom: 1rem;
         display:flex;
         justify-content: flex-end;
         align-items: flex-end;
@@ -271,25 +303,15 @@
         text-transform: uppercase;
         font-size: 1.5em;
         font-weight: bold;
-        letter-spacing: 0.05;
-      }
-
-      /* les couleurs c1 et c2 */
-      .c1{
+        letter-spacing: 0.07;
         background:rgba(0,0,0,0.20); /* avec alpha */
       }
 
-      .c2{
-        background:rgba(0,0,0,0.20); /* avec alpha */
-      }
-
-      .c3{
-        background:rgba(0,0,0,0.20); /* avec alpha */
-      }
       /* le survol */
       .a-txt:hover{
         opacity:0;
       }
+
       .a-img-txt:hover .a-img{
         filter:invert(0);
         -webkit-transform:scale(1.2); /* Safari and Chrome */
@@ -320,6 +342,8 @@
       }
 
       .en_construction {
+        font-family: 'AvantGardeLight';
+        font-weight: 300;
         display: flex;
         flex-direction: row;
         width: 90%;
@@ -336,13 +360,15 @@
         font-size: 2em;
         text-transform: uppercase;
         color: #303133;
-        font-weight: 600;
+        font-family: 'AvantGardeDemiBold';
+        font-weight: bold;
         text-align: left;
       }
 
       .en_construction p {
         font-size: 1em;
         letter-spacing: 0.05;
+        line-height: 1.5em;
         color: #777;
         font-weight: 400;
         text-align: justify;
@@ -361,6 +387,7 @@
         color: #777;
         font-weight: 400;
         text-align: justify;
+        line-height: 1.5em;
       }
 
       .en_construction strong{
@@ -385,7 +412,8 @@
       /* Promotion */
       .promotion{
         width: 100%;
-        background-color: #0A1218;
+        background-color: white;
+        padding-top: 4em;
         padding-bottom: 4rem;
       }
       /* annonce_construction */

@@ -71,7 +71,7 @@ body {
   <a href="index.php" class="active logo"><img src="images/logo1.png" alt="logo väggen vaggen" width="100px" height="100px"></a>
   <div id="myLinks">
     <a href="#t">Videos</a>
-    <a href="#">Daily</a>
+    <a href="daily.php">Daily</a>
     <a href="weekly.php">Weekly</a>
     <a href="monthly.php">Monthly</a>
     <a href="#">About</a>

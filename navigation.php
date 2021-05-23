@@ -22,7 +22,7 @@
     <div class="barre_nav">
       <ul>
         <li> <a href="#">Video</a></li>
-        <li><a href="#">Daily</a></li>
+        <li><a href="daily.php">Daily</a></li>
         <li><a href="weekly.php">Weekly</a></li>
         <li><a href="monthly.php">Monthly</a></li>
         <li><a href="#">About</a></li>

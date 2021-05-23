@@ -32,7 +32,7 @@
       </div>
 
       <div class="descriptif_artist-week">
-        <p> <strong><a href="https://www.instagram.com/explore/tags/ocur/?hl=fr" target="_blank">Ocur</a>, <a href="https://www.instagram.com/gougeone/?hl=fr" target="_blank">Gouge</a>, <a href="https://www.instagram.com/morgue_ask/" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="https://www.instagram.com/rabeks_ask/"
+        <p class="titre"> <strong><a href="https://www.instagram.com/explore/tags/ocur/?hl=fr" target="_blank">Ocur</a>, <a href="https://www.instagram.com/gougeone/?hl=fr" target="_blank">Gouge</a>, <a href="https://www.instagram.com/morgue_ask/" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="https://www.instagram.com/rabeks_ask/"
         target="_blank">Rabeks</a></strong>
           <br><em>Week 20</em>
           <br><br> <br>
@@ -53,7 +53,7 @@
       </div>
 
       <div class="descriptif_artist-week">
-        <p> <strong><a href="https://www.instagram.com/cheat_122/?hl=fr" target="_blank">Cheat</a>, <a href="https://www.instagram.com/kidkash78/?hl=fr" target="_blank">Kidkash</a>, <a href="https://www.instagram.com/kiss_cas_pyc/?hl=fr" target="_blank">Kiss</a></strong>
+        <p class="titre"> <strong><a href="https://www.instagram.com/cheat_122/?hl=fr" target="_blank">Cheat</a>, <a href="https://www.instagram.com/kidkash78/?hl=fr" target="_blank">Kidkash</a>, <a href="https://www.instagram.com/kiss_cas_pyc/?hl=fr" target="_blank">Kiss</a></strong>
           <br><em>Week 15</em>
           <br><br>For this first week, this collaboration perfectly highlights Väggen's spirit: letters, characters and the right amount of humor and messages. <br>Thanks to them !
         </p>
@@ -109,6 +109,9 @@
       display: none;
     }
 
+    .titre{
+      text-align: left;
+    }
 
     /* en dessous de 600px */
     @media only screen and (max-width: 600px) {
@@ -287,6 +290,7 @@
       color: #303133;
       text-decoration: none;
       font-weight: 600;
+      text-align: inherit;
     }
 
     .descriptif_artist-week a:hover{
@@ -300,6 +304,7 @@
       text-decoration: none;
       text-transform: uppercase;
       font-family: 'AvantGardeBold';
+      text-align: left;
     }
 
     .descriptif_artist-week strong a:hover{

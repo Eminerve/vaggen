@@ -35,7 +35,7 @@
         <p class="titre"> <strong><a href="https://www.instagram.com/explore/tags/ocur/?hl=fr" target="_blank">Ocur</a>, <a href="https://www.instagram.com/gougeone/?hl=fr" target="_blank">Gouge</a>, <a href="https://www.instagram.com/morgue_ask/" target="_blank">Morgue</a>, <a href="https://www.instagram.com/holem_one/?hl=fr" target="_blank">Holem</a>, <a href="https://www.instagram.com/rabeks_ask/"
         target="_blank">Rabeks</a></strong>
           <br><em>Week 20</em>
-          <br><br>Three artists from the CAS team for a two-color improvisation with small graffiti watches.<br> 
+          <br><br>Three artists from the CAS team for a two-color improvisation with small graffiti watches.<br>
         </p>
         <p>
           You can find all the photos of the wall on the <a href="https://www.instagram.com/vaggensickla/?hl=fr" target="_blank">Väggen intasgram</a> or follow the artists' news by clicking on their name!
@@ -70,7 +70,7 @@
 
   /* Général */
   @font-face {
-    font-family: 'AvantGarde';
+    font-family: 'AvantGardeRegular';
     src: url('font/AvantGardeRegular.otf');
     font-weight: normal;
   }
@@ -269,6 +269,7 @@
     }
 
     .descriptif_artist-week{
+      font-family: 'AvantGardeLight';
       padding-top: 1rem;
       width: 70%;
       margin: auto;
@@ -277,13 +278,14 @@
       justify-content: center;
       align-items: center;
       margin: auto;
-      font-size: 1em;
       height: 10rem;
       background-color: white;
-      color: #303133;
+      color: #777;
       padding-bottom: 5rem;
       margin-bottom: 2rem;
+      font-size: 1em;
       letter-spacing: 0.05;
+      line-height: 1.5em;
     }
 
     .descriptif_artist-week a{
@@ -303,7 +305,7 @@
       color: #303133;
       text-decoration: none;
       text-transform: uppercase;
-      font-family: 'AvantGardeBold';
+      font-family: 'AvantGardeDemiBold';
       text-align: left;
     }
 
